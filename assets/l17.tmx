@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="10" height="18" tilewidth="70" tileheight="70" infinite="0" nextlayerid="5" nextobjectid="37">
+ <tileset firstgid="1" source="Rocket.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="18">
+  <data encoding="csv">
+0,0,0,3221225537,3221225537,3221225537,3221225537,3221225537,3221225537,3221225537,
+0,0,0,38,38,38,38,38,38,38,
+0,57,0,29,0,0,0,3221225536,3221225536,3221225536,
+0,29,0,57,0,57,0,67,90,67,
+0,29,0,29,1610612774,57,0,67,0,67,
+0,29,0,29,0,58,0,58,0,67,
+0,29,0,29,0,58,0,29,0,67,
+0,1073741923,0,29,2684354598,58,0,29,0,67,
+0,85,0,29,0,58,0,29,0,67,
+0,85,0,29,0,3221225571,0,29,0,67,
+0,99,0,29,1610612774,2147483733,0,29,0,67,
+0,29,0,29,0,2147483733,0,29,0,67,
+0,29,0,57,0,2147483733,0,29,0,67,
+0,29,0,0,0,2147483733,0,29,0,67,
+0,29,3221225510,3221225510,3221225510,2147483747,0,29,0,67,
+0,57,58,57,58,58,0,58,0,67,
+0,0,0,0,0,1073741923,0,0,0,67,
+11,11,11,11,11,99,11,11,11,29
+</data>
+ </layer>
+ <objectgroup id="2" name="physics">
+  <object id="5" name="collision" x="0" y="1250" width="702" height="42"/>
+  <object id="20" name="danger" x="635" y="214" width="63" height="1039.77"/>
+  <object id="21" name="danger" x="495" y="208" width="60" height="137"/>
+  <object id="22" name="danger" x="283" y="286" width="29" height="64"/>
+  <object id="23" name="danger" x="213" y="66" width="486" height="28"/>
+  <object id="24" name="danger" x="282" y="702" width="28" height="69"/>
+  <object id="25" name="danger" x="307" y="700" width="1"/>
+  <object id="27" name="danger" x="323.091" y="489.545" width="29.2727" height="68.9091"/>
+  <object id="28" name="danger" x="143" y="1019" width="206" height="30"/>
+  <object id="29" name="collision" x="69.3333" y="138.667" width="73.3333" height="980"/>
+  <object id="30" name="collision" x="145.333" y="1052" width="276" height="65.3333"/>
+  <object id="31" name="collision" x="360" y="1118.67" width="53.3333" height="130.667"/>
+  <object id="32" name="collision" x="353.333" y="210.667" width="64" height="838.667"/>
+  <object id="33" name="collision" x="493.122" y="349.333" width="64.2105" height="766.667"/>
+  <object id="35" name="collision" x="210.667" y="52" width="493.333" height="17.3333"/>
+  <object id="36" name="collision" x="209.333" y="139.667" width="72" height="771"/>
+ </objectgroup>
+ <objectgroup id="4" name="objects">
+  <object id="2" name="exit" x="571.302" y="210.216" width="52.04" height="61.8854"/>
+  <object id="4" name="player" x="306.614" y="1142.07" width="28.1297" height="45.0075"/>
+ </objectgroup>
+</map>

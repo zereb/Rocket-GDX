@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="10" height="18" tilewidth="70" tileheight="70" infinite="0" nextlayerid="4" nextobjectid="15">
+ <tileset firstgid="1" source="Rocket.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="18">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,90,0,
+0,0,0,0,0,0,57,64,64,64,
+0,0,0,0,0,0,85,0,0,0,
+0,0,0,0,0,0,85,0,0,0,
+0,0,0,0,0,0,85,0,0,0,
+0,0,0,0,0,0,85,0,0,0,
+0,0,0,0,0,0,99,0,0,0,
+64,64,64,64,64,64,64,0,58,0,
+0,0,0,0,0,0,0,0,57,0,
+0,0,0,0,0,0,0,0,57,0,
+0,0,58,0,0,0,0,0,57,0,
+0,0,57,0,0,0,0,0,57,0,
+0,0,57,64,64,0,64,64,57,0,
+0,0,99,0,0,0,0,0,99,0,
+0,0,64,0,0,0,0,0,64,0,
+11,11,11,11,11,11,11,11,11,11
+</data>
+ </layer>
+ <objectgroup id="2" name="objects">
+  <object id="13" name="exit" x="570.333" y="141.333" width="52.3333" height="66"/>
+  <object id="14" name="player" x="374" y="1167" width="19" height="18"/>
+ </objectgroup>
+ <objectgroup id="3" name="physics">
+  <object id="4" name="collision" x="-2.5" y="1250" width="712.5" height="24"/>
+  <object id="6" name="collision" x="560.667" y="631.333" width="70" height="510"/>
+  <object id="7" name="collision" x="141.333" y="841.333" width="69.3333" height="300.667"/>
+  <object id="8" name="collision" x="210.667" y="979.333" width="140" height="22"/>
+  <object id="9" name="collision" x="421.333" y="980.667" width="139.333" height="19.3333"/>
+  <object id="10" name="collision" x="1.33333" y="630.667" width="490" height="20"/>
+  <object id="11" name="collision" x="420.667" y="209.333" width="70" height="420"/>
+  <object id="12" name="collision" x="492.667" y="210" width="208" height="20.6667"/>
+ </objectgroup>
+</map>

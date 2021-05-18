@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="10" height="18" tilewidth="70" tileheight="70" infinite="0" nextlayerid="5" nextobjectid="28">
+ <tileset firstgid="1" source="Rocket.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="18">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+57,29,29,29,29,0,57,0,0,57,
+85,0,0,0,67,0,67,0,67,85,
+85,0,0,67,0,0,67,0,0,85,
+85,0,0,67,0,0,67,0,0,85,
+85,0,0,67,0,67,0,67,0,85,
+29,0,0,67,0,67,0,0,0,29,
+29,0,67,0,0,67,0,0,0,29,
+29,0,67,0,0,67,0,0,67,29,
+29,0,67,0,67,0,0,0,0,29,
+85,0,67,0,67,0,0,67,0,85,
+85,67,0,0,67,0,0,0,0,85,
+85,67,0,0,67,0,0,90,0,85,
+85,67,0,67,29,58,64,64,64,85,
+29,67,0,67,0,0,0,0,0,29,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+11,11,11,11,11,11,11,11,11,11
+</data>
+ </layer>
+ <objectgroup id="3" name="objects">
+  <object id="1" name="player" x="242.667" y="1168" width="22.6667" height="26.6667"/>
+  <object id="2" name="exit" x="501.862" y="848.529" width="49.6094" height="58.138"/>
+ </objectgroup>
+ <objectgroup id="4" name="physics">
+  <object id="7" name="collision" x="420" y="910" width="210" height="21.3333"/>
+  <object id="8" name="collision" x="1" y="1250" width="704" height="24"/>
+  <object id="10" name="collision" x="2.81297" y="140.649" width="64.6983" height="909.996"/>
+  <object id="11" name="collision" x="1.40649" y="70.3243" width="345.995" height="66.1048"/>
+  <object id="12" name="collision" x="421.946" y="70.3243" width="67.5113" height="70.3243"/>
+  <object id="13" name="collision" x="632.918" y="68.9178" width="67.5113" height="978.914"/>
+  <object id="14" name="collision" x="285.517" y="911.403" width="132.21" height="63.2918"/>
+  <object id="16" name="danger" x="285" y="141" width="62" height="65"/>
+  <object id="17" name="danger" x="423" y="146" width="65" height="200"/>
+  <object id="18" name="danger" x="353" y="352" width="65" height="275"/>
+  <object id="19" name="danger" x="284" y="633" width="63" height="277"/>
+  <object id="20" name="danger" x="214" y="214" width="64" height="273"/>
+  <object id="21" name="danger" x="145" y="491" width="63" height="277"/>
+  <object id="22" name="danger" x="71" y="772" width="67" height="273"/>
+  <object id="23" name="danger" x="211" y="913" width="66" height="134"/>
+  <object id="24" name="danger" x="490" y="702" width="67" height="65"/>
+  <object id="25" name="danger" x="562" y="562" width="67" height="66"/>
+  <object id="26" name="danger" x="566" y="147" width="59" height="58"/>
+  <object id="27" name="danger" x="492" y="354" width="66" height="62"/>
+ </objectgroup>
+</map>
